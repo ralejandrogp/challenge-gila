@@ -127,13 +127,13 @@ LOCK TABLES `messages` WRITE;
 UNLOCK TABLES;
 
 --
--- Table structure for table `suscribed`
+-- Table structure for table `subscriptions`
 --
 
-DROP TABLE IF EXISTS `suscribed`;
+DROP TABLE IF EXISTS `subscriptions`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `suscribed` (
+CREATE TABLE `subscriptions` (
   `IdUser` int NOT NULL,
   `IdCategory` int NOT NULL,
   `IdChannel` int NOT NULL,
@@ -147,12 +147,12 @@ CREATE TABLE `suscribed` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `suscribed`
+-- Dumping data for table `subscriptions`
 --
 
-LOCK TABLES `suscribed` WRITE;
-/*!40000 ALTER TABLE `suscribed` DISABLE KEYS */;
-/*!40000 ALTER TABLE `suscribed` ENABLE KEYS */;
+LOCK TABLES `subscriptions` WRITE;
+/*!40000 ALTER TABLE `subscriptions` DISABLE KEYS */;
+/*!40000 ALTER TABLE `subscriptions` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -193,4 +193,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-10-14 17:34:12
+-- Dump completed on 2024-10-14 17:54:35
